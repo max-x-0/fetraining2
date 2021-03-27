@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+.banner.text {
+    display: flex;  
+    align-items: start;
+    color: red;
+    text-align: left;
+    font-size: 300%;
+    border: none;
+    margin: 10px 50px;    
+}
+
+.navigation {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+.navigation.panel {
+    transform: rotate(-90 deg);
+}
+
+.example {
+    transform: rotate(-90 deg); 
+}
