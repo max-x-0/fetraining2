@@ -21,19 +21,38 @@ body {
     margin: 10px 50px;    
 }
 
-.navigation {
+.app {
+    display: flex;
+
+}
+
+.app.navigation {
     display: flex;
     justify-content: start;
-    align-items: end;
     width: 200px;
-    height: 100%;
-    border-right: 1px solid black;
+    height: 100vh;
+    border-right: 2px solid black;
 }
 
-.navigation.panel {
-    transform: rotate(-90 deg);
+.app.navigation.panel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: auto;
+    height: auto;
+    border: none;
+    font-size: 300%;
+    color: red;
+    transform: rotate(-90deg);
 }
 
-.example {
-    transform: rotate(-90 deg); 
+.app.header {
+    /* display: flex;
+    align-items: start;
+    flex-direction: column; */
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: auto;
 }
+
+
