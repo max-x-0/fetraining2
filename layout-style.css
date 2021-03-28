@@ -47,12 +47,49 @@ body {
 }
 
 .app.header {
-    /* display: flex;
+    display: flex;
     align-items: start;
-    flex-direction: column; */
+    flex-direction: column;
     border-bottom: 2px solid black;
     width: 100%;
     height: auto;
 }
 
+.app.header.text.big {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 150%;
+    padding: 10px 0px 0px 25px;
+    border: none;
+}
+
+
+.app.header.text {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 100%; 
+    padding: 0px 0px 10px 25px;
+    border-bottom: 2px solid black;
+}
+
+.app.links {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid black;
+}
+
+.app.links.link {
+    display: inline-block;
+    width: auto;
+    margin: 10px 10px;
+    border: none;
+    color: cornflowerblue;
+}
+
+.app.links.link.border {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
 
