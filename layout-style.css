@@ -23,7 +23,6 @@ body {
 
 .app {
     display: flex;
-
 }
 
 .app.navigation {
@@ -51,7 +50,7 @@ body {
     align-items: start;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 108px;
 }
 
 .app.header.text.big {
@@ -90,5 +89,24 @@ body {
 .app.links.link.border {
     border-left: 1px solid black;
     padding-left: 10px;
+}
+
+.app.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.app.content.lists {
+    padding: 5px 0px;
+}
+
+.app.content.lists.select {
+    width: 1500px;
+    height: 35px;
+    margin: 10px;
+    font-size: 100%;
 }
 
