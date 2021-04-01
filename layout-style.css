@@ -13,7 +13,7 @@ body {
 
 .banner.text {
     display: flex;  
-    align-items: start;
+    align-items: start; /* flex-start если уж на то пошло, flex-start и так устанавливается по умолчанию */
     color: red;
     text-align: left;
     font-size: 300%;
@@ -57,7 +57,7 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    font-size: 150%;
+    font-size: 150%; /* нельзя так задавать высоту шрифта, в данном контексе это должны быть пиксели */
     padding: 10px 0px 0px 25px;
     border: none;
 }
